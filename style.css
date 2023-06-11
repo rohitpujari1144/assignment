@@ -278,6 +278,8 @@
 
 .divSixInnerDiv {
   margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .divSixCard {
@@ -285,6 +287,15 @@
   border-radius: 7%;
 }
 
+@media (max-width: 500px) {
+  .divSixInnerDiv {
+    display: block;
+    margin-top: 40px;
+  }
+  .divSixCard {
+    margin-top: 10px;
+  }
+}
 .footerDiv {
   height: 250px;
   font-weight: bold;
