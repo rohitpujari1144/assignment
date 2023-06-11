@@ -1,0 +1,179 @@
+// div one style start
+.divOne{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divOne h1{
+    font-weight: bolder;
+}
+
+.divOne p{
+    font-weight: 500;
+    font-family:Arial
+}
+
+.divOneButton button{
+    border-radius: 200px;
+}
+
+.divOneImageDiv{
+    height: 450px;
+}
+
+.divOneImageDiv img{
+    height: 100%; width: 100%
+}
+
+@media (max-width:500px){
+    .divOne{
+        display: block;
+    }
+}
+// div one style end
+
+// div one style start
+.divTwo{
+    margin-top: 150px;
+}
+
+.divTwo h2{
+    font-weight:bold; 
+    font-family:Arial
+}
+
+.divTwoMainContentDiv{
+    margin-top: 70px;
+}
+
+.divTwoContentDivOne{
+    width: 18rem; 
+    height:18rem; 
+    border-radius:7%
+}
+
+.divTwoContentDivOne p{
+    font-family:Arial
+}
+// div one style end
+
+// div three style start
+.divThree{
+    margin-top: 150px;
+}
+
+.divThree h2{
+    font-weight:bold;
+    font-family:Arial
+}
+
+.divThreeMainContentDiv{
+    margin-top: 70px;
+}
+
+.divThreeImageDiv{
+    width:100%
+}
+
+.divThreeImageOne{
+    width: 100%;
+    height:100%
+}
+
+.divThreeCardBody{
+    width: 18rem;
+}
+
+.divThreeCardBody h6{
+    font-weight: bold;
+}
+
+.divThreeCardBody p{
+    font-weight: 500;
+}
+// div three style end
+
+// div four style start
+.divFour{
+    margin-top: 150px;
+}
+
+.divFour h2{
+    font-weight:bold;
+    font-family:Arial
+}
+
+.divFourCardMainDiv{
+    width: 35rem; 
+}
+
+.divFourCardMainDivSpan{
+    font-family: Arial; 
+    font-weight:bold; 
+    font-size:larger
+}
+
+.divFourCardMainDivParagraph{
+    font-family: Arial;
+    font-weight:400;
+    font-size:larger
+}
+// div four style end
+
+// div five style start
+.divFiveH2{
+    font-weight: bold; 
+    margin-top: 150px;  
+    font-family:Arial
+}
+
+.divFive{
+    max-height:350px
+}
+
+.greenStarTextDiv{
+    margin-top: 20px;
+}
+
+.greenStarText{
+    font-weight: bold; 
+}
+
+.divFiveCardMainDiv{
+    margin-top: 50px;
+}
+
+.divFiveCard{
+    width: 25rem; 
+    height:18rem; 
+    border-radius:7%
+}
+
+.userInfo{
+    font-family: Arial;
+}
+// div five style end
+
+// div six style start
+.divSix{
+    margin-top: 300px;
+}
+
+.divSixInnerDiv{
+    margin-top: 150px;
+} 
+
+.divSixCard{
+    width: 18rem; 
+    border-radius:7%
+}
+// div six style end
+
+.footerDiv{
+    height: 250px; 
+    font-weight:bold; 
+    margin-top:100px
+}
+
+
