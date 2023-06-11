@@ -84,12 +84,16 @@
 }
 
 @media (max-width:500px){
-    .divTwoMainContentDiv{
-        display: block;
+    .divTwo h2{
+        font-weight:bold; 
+        font-family:Arial;
+        text-align: center;
     }
 
     .divTwoMainContentDiv{
-        display: grid;
+        display: block;
+        margin-top: 70px;
+        width: 0;
     }
 
     .divTwoContentDivOne{
