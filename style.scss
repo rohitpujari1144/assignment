@@ -194,16 +194,16 @@
 .divFourCardMainDivParagraph{
     font-family: Arial;
     font-weight:400;
-    font-size:larger
+    font-size:larger;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .allCardMainDiv{
         display: block;
         margin-top:10px;
     }
 
-    .divFourWrittenContentDiv{
+    .divFourCardMainDivParagraph{
         max-width: 50%;
     }
 
