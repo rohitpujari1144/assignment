@@ -1,7 +1,15 @@
+.navbar-collapse {
+  justify-content: center;
+}
+
 .divOne {
   margin-top: 100px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.divOneContentDiv {
+  max-width: 500px;
 }
 
 .divOne h1 {
@@ -13,12 +21,19 @@
   font-family: Arial;
 }
 
+.divOneButton {
+  margin-top: 70px;
+}
+
 .divOneButton button {
   border-radius: 200px;
+  padding: 10px 20px 10px 20px;
+  font-size: 150%;
 }
 
 .divOneImageDiv {
   height: 450px;
+  width: 500px;
 }
 
 .divOneImageDiv img {
@@ -28,7 +43,11 @@
 
 @media (max-width: 500px) {
   .divOne {
-    display: block;
+    display: grid;
+    margin-top: 20px;
+  }
+  .divOneImageDiv {
+    margin-top: 20px;
   }
 }
 .divTwo {
@@ -38,10 +57,14 @@
 .divTwo h2 {
   font-weight: bold;
   font-family: Arial;
+  text-align: center;
 }
 
 .divTwoMainContentDiv {
   margin-top: 70px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .divTwoContentDivOne {
@@ -54,6 +77,21 @@
   font-family: Arial;
 }
 
+@media (max-width: 500px) {
+  .divTwo h2 {
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+  }
+  .divTwoMainContentDiv {
+    display: block;
+    margin-top: 70px;
+    width: 0;
+  }
+  .divTwoContentDivOne {
+    margin-top: 15px;
+  }
+}
 .divThree {
   margin-top: 150px;
 }
@@ -65,6 +103,9 @@
 
 .divThreeMainContentDiv {
   margin-top: 70px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .divThreeImageDiv {
@@ -92,6 +133,17 @@
   margin-top: 150px;
 }
 
+.allCardMainDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.imageContentDiv {
+  display: flex;
+  justify-content: start;
+}
+
 .divFour h2 {
   font-weight: bold;
   font-family: Arial;
@@ -113,14 +165,38 @@
   font-size: larger;
 }
 
+@media (max-width: 500px) {
+  .allCardMainDiv {
+    display: block;
+    margin-top: 10px;
+  }
+  .divFourCardMainDivParagraph {
+    max-width: 50%;
+  }
+  .imageContentDiv {
+    display: block;
+  }
+}
 .divFiveH2 {
   font-weight: bold;
   margin-top: 150px;
   font-family: Arial;
 }
 
+.divFiveMainDiv {
+  display: flex;
+  justify-content: center;
+}
+
 .divFive {
   max-height: 350px;
+  margin-top: 20px;
+}
+
+.divFiveGreenStartDiv {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .greenStarTextDiv {
@@ -133,6 +209,8 @@
 
 .divFiveCardMainDiv {
   margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .divFiveCard {
@@ -141,10 +219,59 @@
   border-radius: 7%;
 }
 
+.divFiveUsermageName {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divFiveUserName {
+  margin-left: 5px;
+}
+
+.divFiveCardOne {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.divFiveCardTwo {
+  margin-right: 40px;
+}
+
+.divFiveCardThree {
+  margin-right: 40px;
+}
+
 .userInfo {
   font-family: Arial;
 }
 
+.divFiveWrittenContent {
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  .divFive {
+    max-height: 1000px;
+  }
+  .divFiveGreenStartDiv {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .divFiveCardMainDiv {
+    margin-top: 20px;
+    display: block;
+  }
+  .divFiveCardTwo {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .divFiveCardThree {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+}
 .divSix {
   margin-top: 300px;
 }
