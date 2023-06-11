@@ -13,13 +13,20 @@
     font-weight: bolder;
 }
 
+
 .divOne p{
     font-weight: 500;
     font-family:Arial
 }
 
+.divOneButton{
+    margin-top: 70px;
+}
+
 .divOneButton button{
     border-radius: 200px;
+    padding: 10px 20px 10px 20px;
+    font-size:150%
 }
 
 .divOneImageDiv{
@@ -27,24 +34,23 @@
 }
 
 .divOneImageDiv img{
-    height: 100%; width: 100%
+    height: 100%; 
+    width: 100%
 }
 
 @media (max-width:500px){
     .divOne{
         display: block;
-    }
-
-    .divOneImageDiv{
-        height: 300px;
-        width: 300px;
+        display: grid;
+        justify-content: center;
     }
 }
 // div one style end
 
-// div one style start
+// div two style start
 .divTwo{
     margin-top: 150px;
+    
 }
 
 .divTwo h2{
@@ -54,6 +60,8 @@
 
 .divTwoMainContentDiv{
     margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .divTwoContentDivOne{
@@ -65,7 +73,13 @@
 .divTwoContentDivOne p{
     font-family:Arial
 }
-// div one style end
+
+@media (max-width:500px){
+    .divTwoMainContentDiv{
+        display: block;
+    }
+}
+// div two style end
 
 // div three style start
 .divThree{
