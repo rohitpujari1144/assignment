@@ -41,7 +41,7 @@
   width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .divOne {
     display: grid;
     margin-top: 20px;
@@ -77,7 +77,7 @@
   font-family: Arial;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .divTwo h2 {
     font-weight: bold;
     font-family: Arial;
@@ -165,7 +165,7 @@
   font-size: larger;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .allCardMainDiv {
     display: block;
     margin-top: 10px;
@@ -249,7 +249,7 @@
   margin-top: 50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .divFive {
     max-height: 1000px;
   }
@@ -287,7 +287,7 @@
   border-radius: 7%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .divSixInnerDiv {
     display: block;
     margin-top: 40px;
