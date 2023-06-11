@@ -220,8 +220,20 @@
     font-family:Arial
 }
 
+.divFiveMainDiv{
+    display: flex;
+    justify-content: center;
+}
+
 .divFive{
-    max-height:350px
+    max-height:350px;
+    margin-top: 20px;
+}
+
+.divFiveGreenStartDiv{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .greenStarTextDiv{
@@ -234,6 +246,8 @@
 
 .divFiveCardMainDiv{
     margin-top: 50px;
+    display: flex;
+justify-content: space-evenly;
 }
 
 .divFiveCard{
@@ -242,8 +256,63 @@
     border-radius:7%
 }
 
+.divFiveUsermageName{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divFiveUserName{
+    margin-left: 5px;
+}
+
+.divFiveCardOne{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.divFiveCardTwo{
+    margin-right: 40px;
+}
+
+.divFiveCardThree{
+    margin-right: 40px;
+}
+
 .userInfo{
     font-family: Arial;
+}
+
+.divFiveWrittenContent{
+    margin-top: 50px;
+}
+
+@media (max-width:500px) {
+    .divFive{
+        max-height:1000px;
+
+    }
+
+    .divFiveGreenStartDiv{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .divFiveCardMainDiv{
+        margin-top: 20px;
+        display: block;
+    }
+
+    .divFiveCardTwo{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .divFiveCardThree{
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
 }
 // div five style end
 
