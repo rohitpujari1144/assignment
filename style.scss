@@ -1,3 +1,7 @@
+.navbar-collapse{
+    justify-content: center;
+}
+
 // div one style start
 .divOne{
     margin-top: 100px;
@@ -29,6 +33,11 @@
 @media (max-width:500px){
     .divOne{
         display: block;
+    }
+
+    .divOneImageDiv{
+        height: 300px;
+        width: 300px;
     }
 }
 // div one style end
