@@ -45,12 +45,11 @@
 
 @media (max-width:500px){
     .divOne{
-        display: block;
-        
+        display: grid;
+        margin-top: 20px;  
     }
     .divOneImageDiv{
-    margin-top: 50px;
-
+        margin-top: 20px;
     }
 }
 // div one style end
@@ -63,19 +62,21 @@
 
 .divTwo h2{
     font-weight:bold; 
-    font-family:Arial
+    font-family:Arial;
+    text-align: center;
 }
 
 .divTwoMainContentDiv{
     margin-top: 70px;
+    width: 1100px;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
 .divTwoContentDivOne{
     width: 18rem; 
     height:18rem; 
-    border-radius:7%
+    border-radius:7%;
 }
 
 .divTwoContentDivOne p{
@@ -85,6 +86,14 @@
 @media (max-width:500px){
     .divTwoMainContentDiv{
         display: block;
+    }
+
+    .divTwoMainContentDiv{
+        display: grid;
+    }
+
+    .divTwoContentDivOne{
+        margin-top: 15px;
     }
 }
 // div two style end
