@@ -1,0 +1,1 @@
+- Frontend deployed URL: https://basibud-assignment.netlify.app/
